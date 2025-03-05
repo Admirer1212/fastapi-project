@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
+  <diagram name="Page-1" id="PxnJ0O9GdpVYaIdqXVvZ">
+    <mxGraphModel dx="1358" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YtcSz_W1lLZ6baSQ3ZeA-1" target="YtcSz_W1lLZ6baSQ3ZeA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-1" value="Python Backend API&lt;div&gt;(Flask , FastAPI&amp;nbsp; )&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YtcSz_W1lLZ6baSQ3ZeA-2" target="YtcSz_W1lLZ6baSQ3ZeA-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-2" value="Create a local url." style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YtcSz_W1lLZ6baSQ3ZeA-4" target="YtcSz_W1lLZ6baSQ3ZeA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="&#xa;Set Up the API Connector in Bubble.io&#xa;&#xa;" link="https://manual.bubble.io/help-guides/integrations/api/the-api-connector" id="YtcSz_W1lLZ6baSQ3ZeA-4">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="350" y="320" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-6" value="&#xa;Use the API in Your Bubble Workflows&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-11" value="Bubble App" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-12" value="Open AI APP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="YtcSz_W1lLZ6baSQ3ZeA-11" target="YtcSz_W1lLZ6baSQ3ZeA-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="540" as="sourcePoint" />
+            <mxPoint x="690" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-14" value="Outgoing API Call" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YtcSz_W1lLZ6baSQ3ZeA-13">
+          <mxGeometry x="-0.0027" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.397;entryY=0.987;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YtcSz_W1lLZ6baSQ3ZeA-12" target="YtcSz_W1lLZ6baSQ3ZeA-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="570" as="sourcePoint" />
+            <mxPoint x="610" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="600" />
+              <mxPoint x="158" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-16" value="Respone" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YtcSz_W1lLZ6baSQ3ZeA-15">
+          <mxGeometry x="0.0179" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-19" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="720" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-22" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;top=0;left=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="440" width="720" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YtcSz_W1lLZ6baSQ3ZeA-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YtcSz_W1lLZ6baSQ3ZeA-22" target="YtcSz_W1lLZ6baSQ3ZeA-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="640" as="sourcePoint" />
+            <mxPoint x="520" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
