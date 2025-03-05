@@ -7,6 +7,7 @@ import os
 import torch
 import hashlib
 import logging
+import uvicorn  # Ensure this is imported
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -197,11 +198,13 @@ async def process_image_endpoint(file: UploadFile = File(...)):
         # Clean up
         os.remove(file_path)
 
-        # Forcing explicit JSON response with headers
-        return JSONResponse(
-            content=result.dict(),
-            headers={"Content-Type": "application/json"}
-        )
+        return JSONResponse(content=result.dict(), headers={"Content-Type": "application/json"})
     except Exception as e:
         logger.error(f"API Error: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
+
+
+# **FIXED PORT BINDING**
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))  # Use Render's dynamic port
+    uvicorn.run(app, host="0.0.0.0", port=port)
